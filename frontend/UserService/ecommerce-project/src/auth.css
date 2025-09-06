@@ -1,0 +1,42 @@
+.auth-card-simple {
+  background: #111; /* black card */
+  padding: 2rem;
+  border-radius: 12px;
+  width: 350px;
+}
+
+.auth-input-simple {
+  border-radius: 8px;
+  padding: 12px;
+  background: #222; /* dark input */
+  color: white;
+  border: 1px solid #ff7f00; /* orange border */
+}
+
+.auth-input-simple::placeholder {
+  color: #bbb;
+}
+
+.auth-btn-simple {
+  background: #ff7f00 !important; /* orange */
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+  transition: 0.3s;
+}
+
+.auth-btn-simple:hover {
+  background: #e66a00 !important; /* darker orange */
+}
+
+.auth-link-simple {
+  color: #ff7f00;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.auth-link-simple:hover {
+  text-decoration: underline;
+}
